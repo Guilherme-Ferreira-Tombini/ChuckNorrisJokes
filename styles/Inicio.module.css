@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    margin-top: 70px;
+}
+
+.texto{
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    color:white;
+}

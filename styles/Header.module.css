@@ -1,0 +1,21 @@
+.header{
+  width: 100%;
+  padding: 2px;
+  background-color: #A87527;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 15px;
+}
+
+.img{
+  margin-left: 20px;
+}
+

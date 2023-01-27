@@ -1,0 +1,64 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  z-index:1;
+}
+
+.main{
+  z-index:1;
+}
+
+.container1{
+  background-color: #D4912B;
+  width: 100%;
+  height: 100vh;
+}
+
+.container2{
+  background-color: #9D6D24;
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+.container3{
+  background-color: #D4912B;
+  width: 100%;
+  height: 100vh;
+}
+
+.container4{
+  background-color: #9D6D24;
+  width: 100%;
+  height: 30vh;
+}
+
+.botao1{
+  width: 100%;
+  position: absolute;
+margin-top: -160px;
+display: flex;
+justify-content: center;
+}
+
+.botao2{
+  display: flex;
+  justify-content: center;
+  background-color: #9D6D24;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 6px 10px  black;
+}
+
+.botao3{
+  width: 100%;
+  position: absolute;
+margin-top: 17vh;
+display: flex;
+justify-content: center;
+}
