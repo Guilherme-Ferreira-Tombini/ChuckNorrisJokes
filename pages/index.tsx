@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.botao1}>
        <a href="#container2">
         <div className={styles.botao2}>
-          <Image src="/seta.png" width="85px" height="80px"/>
+          <Image src="/seta_abaixo.png" width="85px" height="80px"/>
         </div> 
       </a>
      </div>
