@@ -38,7 +38,7 @@ return(
    <div className={styles.imagem} style={{ backgroundImage: `url(${img()})`, backgroundSize: '100% 100%'}}></div>
 
    <div className={styles.card1}>
-    <p>{"'"+card?.value+"'"}</p>
+    <p>{'"'+card?.value+'"'}</p>
    </div>
     
   </div>
