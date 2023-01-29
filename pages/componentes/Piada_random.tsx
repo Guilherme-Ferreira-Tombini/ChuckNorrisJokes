@@ -35,6 +35,7 @@ export default function Piada_random(){
 
 return(
    <div className={styles.card}>
+     <h1 className={styles.text}>Piada aleatória</h1>
    <div className={styles.imagem} style={{ backgroundImage: `url(${img()})`, backgroundSize: '100% 100%'}}></div>
 
    <div className={styles.card1}>
