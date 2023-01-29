@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Inicio from './componentes/Inicio'
 import Image from 'next/image'
+import Piada_random from './componentes/Piada_random'
 
 
 export default function Home() {
@@ -29,6 +30,9 @@ export default function Home() {
     </div>
 
     <div id='container2' className={styles.container2}>
+     <div>
+       <Piada_random/>
+     </div>
 
     </div>
 
