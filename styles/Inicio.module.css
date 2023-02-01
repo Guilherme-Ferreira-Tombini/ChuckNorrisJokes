@@ -17,3 +17,10 @@
     text-align: center;
     color:white;
 }
+
+@media(max-width:1000px){
+    .texto{
+        font-size: 30px;
+        width: 80%;
+    }
+}

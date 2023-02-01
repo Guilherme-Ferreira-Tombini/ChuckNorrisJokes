@@ -1,6 +1,5 @@
 import styles from '../../styles/Piada_random.module.css'
 import React, { useCallback, useEffect, useState } from "react";
-//import translate from "google-translate-api-next";
 import api from "../api/api";
 
 
@@ -10,8 +9,7 @@ export interface ProjetoData{
   }
 
 export default function Piada_random(){
-    const [card, setCard] = useState<ProjetoData>();
-
+    const [card, setCard] = useState<ProjetoData>();    
     const array = ['/chuck1.gif', '/chuck2.gif', '/chuck3.gif', '/chuck4.gif']
 
     const img = ()=>{
@@ -33,9 +31,10 @@ export default function Piada_random(){
       });
   }, []);
 
+
 return(
    <div className={styles.card}>
-     <h1 className={styles.text}>Piada aleatória</h1>
+     <h1 className={styles.text}>Random joke</h1>
    <div className={styles.imagem} style={{ backgroundImage: `url(${img()})`, backgroundSize: '100% 100%'}}></div>
 
    <div className={styles.card1}>

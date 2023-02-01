@@ -7,7 +7,7 @@ return(
       <div className={styles.image}>
      <Image src="/inicio.png" width="270px" height="260px"/>
      </div>
-     <h1 className={styles.texto}>As mais famosas piadas de Chuck Norris estão agora reunidas em um site que você pode gerar aleatoriamente ou ir pelas categorias disponíveis.</h1>
+     <h1 className={styles.texto}>The most famous Chuck Norris jokes are now gathered on a website that you can randomly generate them or go through the available categories.</h1>
   </div>
 )
 }
