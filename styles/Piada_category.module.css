@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-items: center;
+    color: rgb(238, 238, 238);
+}
+
+.frase{
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    background-color: #9D6D24;
+    border-radius: 40px;
+  }
+  .menu1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .menu1> p{
+      margin: 10px;
+  }
+
+  .input{
+      font-size: larger;
+      border-radius: 5px;
+  }
+
+  
+  

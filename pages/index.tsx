@@ -3,12 +3,13 @@ import styles from '../styles/Home.module.css'
 import Inicio from './componentes/Inicio'
 import Image from 'next/image'
 import Piada_random from './componentes/Piada_random'
+import Piada_category from './componentes/Piada_category'
 
 
 export default function Home() {
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} >
       <Head>
         <title>Chuck Norris Jokes</title>
         <link rel="icon" href="/favicon.ico" />
@@ -36,8 +37,10 @@ export default function Home() {
 
     </div>
 
-    <div id='container3' className={styles.container3}>
-
+    <div id='container3' className={styles.container3} >
+      <div>
+      <Piada_category/>
+      </div>
     </div>
 
     <div id='container4' className={styles.container4}>

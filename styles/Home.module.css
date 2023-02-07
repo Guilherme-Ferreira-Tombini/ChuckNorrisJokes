@@ -37,6 +37,20 @@
   height: 30vh;
 }
 
+.botao{
+  width: 100%;
+  position: absolute;
+margin-top: -160px;
+display: flex;
+justify-content: center;
+  background-color: transparent;
+   border: none;
+   transition: all 0.5s;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
 .botao1{
   width: 100%;
   position: absolute;
@@ -62,3 +76,12 @@ margin-top: 17vh;
 display: flex;
 justify-content: center;
 }
+
+.botao4{
+  background-color: #9D6D24;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 6px 10px  black;
+}
+
