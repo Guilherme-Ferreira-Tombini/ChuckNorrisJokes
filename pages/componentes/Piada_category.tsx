@@ -9,23 +9,24 @@ export interface ProjetoData{
 
 export default function Piada_category(){
   const [category1, setCategory1] = useState<ProjetoData>();
-  const [string, setString] = useState('')
 
-  const handleChange = (event: any) => {
-    setString(event.target.value);
-    console.log(string)
-  };
+  const texto= ()=>{
+    let array = ['food', 'history', 'career', 'sport']
+    const randomElement = array[Math.floor(Math.random() * array.length)];
+    return randomElement
+}
 
-  useEffect(() => {
+  const [string, setString] = useState(texto)
+
+  useEffect(()=>{
     api
-      .get("https://api.chucknorris.io/jokes/random?category="+string)
-      .then((response) => setCategory1(response.data))
-      .catch((err) => {
-        console.error("ops! ocorreu um erro" + err);
-      });
-  }, [string]);
+    .get("https://api.chucknorris.io/jokes/random?category="+string)
+    .then((response) => setCategory1(response.data))
+    .catch((err) => {
+      console.error("ops! ocorreu um erro" + err);
+    });
+  }, [string])
 
-  console.log(category1)
 
 return(
    <div className={styles.container}>
@@ -49,7 +50,13 @@ return(
      </div>
 
      <div>
-        <input className={styles.input} type="text" placeholder='Write the category name' value={string} onChange={handleChange} />
+       <input 
+       className={styles.input} 
+       type="text" 
+       placeholder='Write the category name'
+       onChange={(e)=> {
+          setString(e.target.value)
+       }}/>
       </div>
 
       <div className={styles.frase}>
