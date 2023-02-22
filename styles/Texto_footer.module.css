@@ -1,0 +1,55 @@
+.container{
+    padding: 20px;
+    width: 100%;
+}
+
+.containe{
+    margin-left: 60px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.contatos{
+    margin-top: 10px;
+    padding-left: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coisas{
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-right: 15%;
+    color:white;
+    margin-top: 30px;
+}
+
+.logo> h5{
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.texto>p{
+width: 70%;
+text-align: justify;
+}

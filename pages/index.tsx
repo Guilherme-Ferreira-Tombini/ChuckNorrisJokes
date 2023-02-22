@@ -4,6 +4,7 @@ import Inicio from './componentes/Inicio'
 import Image from 'next/image'
 import Piada_random from './componentes/Piada_random'
 import Piada_category from './componentes/Piada_category'
+import Texto_footer from './componentes/Texto_footer'
 
 
 export default function Home() {
@@ -44,9 +45,10 @@ export default function Home() {
     </div>
 
     <div id='container4' className={styles.container4}>
+      <Texto_footer/>
     <div className={styles.botao3}>
        <a href="#container">
-        <div className={styles.botao2}>
+        <div className={styles.botao4}>
           <Image src="/seta.png" width="85px" height="80px"/>
         </div> 
       </a>
