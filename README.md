@@ -16,7 +16,7 @@ Esse projeto foi construido com a iniciativa de criar um site com o tema princip
 
 - Carrega uma piada aleatoria com um gif
 - Carrega uma piada por categoria
-- Multiplataforma
+- Multiplataforma (IOS e desktop)
 
 
 ## Vídeo da aplicação
