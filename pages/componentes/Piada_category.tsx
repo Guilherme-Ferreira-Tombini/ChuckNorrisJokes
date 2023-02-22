@@ -19,30 +19,6 @@ export default function Piada_category(){
       return setString('')
     }
   }
-  
-  const animal = () =>{
-    if(!string){
-      return setString('?category=animal')
-   }else{
-     return setString('')
-   }
-  }
-
-  const career = () =>{
-    if(!string){
-      return setString('?category=career')
-   }else{
-     return setString('')
-   }
-  }
-
-  const celebrity = () =>{
-    if(!string){
-      return setString('?category=celebrity')
-   }else{
-     return setString('')
-   }
-  }
 
   const history= () =>{
     if(!string){
@@ -84,14 +60,6 @@ export default function Piada_category(){
    }
   }
 
-  const political= () =>{
-    if(!string){
-      return setString('?category=political')
-   }else{
-     return setString('')
-   }
-  }
-
   const science = () =>{
     if(!string){
       return setString('?category=science')
@@ -117,16 +85,12 @@ return(
      <div className={styles.menu}>
       <h3>We have some available categories of random jokes that you can see:</h3>
       <div className={styles.menu1}>
-      <p><a onClick={animal}>animal</a></p>
-      <p><a onClick={career}>career</a></p>
-      <p><a onClick={celebrity}>celebrity</a></p>
       <p><a onClick={food}>food</a></p>
       <p><a onClick={history}>history</a></p>
       <p><a onClick={movie}>movie</a></p>
       <p><a onClick={music}>music</a></p>
       <p><a onClick={sport}>sport</a></p>
       <p><a onClick={money}>money</a></p>
-      <p><a onClick={political}>political</a></p>
       <p><a onClick={science}>science</a></p>
       </div>
      </div>
