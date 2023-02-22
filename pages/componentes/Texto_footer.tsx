@@ -25,14 +25,14 @@ return(
     <div className={styles.contatos}>
       <h3>Contacts</h3>
       <div className={styles.links}>
-      <a href="https://www.instagram.com/guilhermetombini/"><Image src="/instagram.png" width="50px" height="50px"/></a>
-      <a href="https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/"><Image src="/linkedin.png" width="50px" height="50px"/></a>
-      <a href="mailto:ge555449@gmail.com"><Image src="/email.png" width="50px" height="50px"/></a>
+      <a href="https://www.instagram.com/guilhermetombini/"><img className={styles.img} src="/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/"><img className={styles.img} src="/linkedin.png"/></a>
+      <a href="mailto:ge555449@gmail.com"><img className={styles.img} src="/email.png"/></a>
       </div>
     </div>
 
     <div className={styles.logo}>
-    <Image src="/footer.png" width="80px" height="80px"/>
+   <img className={styles.footer} src="/footer.png"/>
     <h5>® 2023 Guilherme Tombini</h5>
     </div>
     </div>

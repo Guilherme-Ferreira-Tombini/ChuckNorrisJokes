@@ -88,3 +88,13 @@ justify-content: center;
   box-shadow: 0px 6px 10px  black;
 }
 
+@media(max-width: 1000px){
+  .container4{
+    padding: 20px;
+    height:auto;
+  }
+  .botao3{
+  margin-top:0;
+  }
+}
+
