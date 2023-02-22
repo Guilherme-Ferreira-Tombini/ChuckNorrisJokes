@@ -19,7 +19,11 @@ Esse projeto foi construido com a iniciativa de criar um site com o tema princip
 - Multiplataforma
 
 
-## Imagens da aplicação
+## Vídeo da aplicação
+
+https://user-images.githubusercontent.com/85890520/220736275-37e20dde-fcb9-4478-a769-8be645b7525e.mp4
+
+
 ## Como iniciar o projeto
 
 Depois de baixado o projeto no seu computador você deve executar a instalação das dependencias:
