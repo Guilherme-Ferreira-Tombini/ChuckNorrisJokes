@@ -3,6 +3,8 @@
 
 Esse projeto foi construido com a iniciativa de criar um site com o tema principal a API de piadas do Chuck Norris. No caso a aplicação está em inglês, para seguir com a lingua padrão da API, mas você pode traduzir a pagina.
 
+A API utilizada para a confecção do site foi https://api.chucknorris.io
+
 
 ## Tecnologias Utilizadas
 
