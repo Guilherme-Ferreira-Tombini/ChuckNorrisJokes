@@ -42,3 +42,7 @@ O `npm run dev` serve para conseguir rodar a aplicação na sua maquina local, n
 
 No caso a pessoa tem que ter instalado um editor editor de código-fonte, como o VSCode.
 Depois instalar o `Node.js` na sua maquina.
+
+## Autores
+
+[<img src="https://avatars.githubusercontent.com/u/85890520?v=4" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)
