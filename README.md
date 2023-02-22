@@ -1,7 +1,9 @@
 
 ## Chuck Norris Jokes
 
-Esse projeto foi construido com a iniciativa de criar um site com o tema principal a API de piadas do Chuck Norris.
+Esse projeto foi construido com a iniciativa de criar um site com o tema principal a API de piadas do Chuck Norris. No caso a aplicação está em inglês, para seguir com a lingua padrão da API, mas você pode traduzir a pagina.
+
+A API utilizada para a confecção do site foi https://api.chucknorris.io
 
 
 ## Tecnologias Utilizadas
@@ -42,3 +44,7 @@ O `npm run dev` serve para conseguir rodar a aplicação na sua maquina local, n
 
 No caso a pessoa tem que ter instalado um editor editor de código-fonte, como o VSCode.
 Depois instalar o `Node.js` na sua maquina.
+
+## Desenvolvedor
+
+[<img src="https://avatars.githubusercontent.com/u/85890520?v=4" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)
